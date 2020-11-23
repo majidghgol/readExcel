@@ -12,7 +12,10 @@ please edit the scala file `src/main/scala/test/Main.scala`, at line 606.
 `createDataset` functions takes two inputs, first is the path to the directory containing the excel files,
 and the second is the path to the output file (gzipped json line file).
 
+The paths are by default set as the following:
 ```
 createDataset("/media/majid/data/data_new/fbi_tables_all/",
     "/media/majid/data/Download/fbi_tables_all.jl.gz")
 ```
+
+To run the code after compilation, in the root folder (where `build.sbt` is) run `sbt run`. 
